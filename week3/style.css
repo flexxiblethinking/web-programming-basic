@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+* {
+    color: white;
+}
+h3 {
+    color: turquoise;
+    font-size: 30px;
+}
+span {
+    font-size: 30px;
+}
+span.lee {
+    color: violet;
+}
+span.park {
+    color: yellowgreen;
+}
+span.nam {
+    color: royalblue;
+}
+span.yang {
+    color: seagreen;
+}
+span.hong {
+    color: orange;
+}
