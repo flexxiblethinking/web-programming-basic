@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+img.image1 {
+    opacity: 0.9;
+}
+
+img.image2 {
+    opacity: 0.5;
+}
+
+img.image3 {
+    opacity: 0.2;
+}
