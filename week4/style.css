@@ -1,0 +1,12 @@
+body {
+    background-image: url("images/background.png");
+    background-repeat: repeat-x;
+}
+main {
+    width: 100%;
+    height: 500px;
+    background-image: url("images/hi.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
