@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>열어봐요 카드팩!</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripr.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo"></div>
+        </header>
+        <main>
+            <h1 id="h1text">카드팩을 클릭해주세요!</h1>
+            <p id="ptext"><ins>카드팩</ins>을 열면 <sub>1</sub>장의 <i>전설카드</i>와 <sub>4</sub>장의 <del>희귀카드</del> <i>일반카드</i>가 나옵니다. <sup>화이팅!</sup></p>
+            <img id="cardpack" src="images/cardpack.png" onclick="ClickCard()">
+            <br>
+           
+            <a href="https://playhearthstone.com/ko-kr/cards/62926-sword-of-the-fallen/" target="_blank">
+                <img id="cardimg0" src="images/cards/card0.png" style="float:center;width:300px;height:400px;" title="희귀카드">
+            </a>
+           
+            <a href="https://playhearthstone.com/ko-kr/cards/56444-murgur-murgurgle?set=standard&textFilter=아오" target="_blank">
+                <img id="cardimg1" src="images/cards/card1.png" style="float:center;width:300px;height:400px;" title="전설카드">
+            </a>
+            
+            <a href="https://playhearthstone.com/ko-kr/cards/62993-cariel-roame?set=standard&textFilter=카리엘%20롬" target="_blank">
+                <img id="cardimg2" src="images/cards/card2.png" style="float:center;width:300px;height:400px;" title="전설카드">
+            </a>
+            <br>
+            <br>
+            <br>
+            <button id="retry" onclick="ClickButton()">다시 시도하기</button>
+        </main>
+        <footer>
+            <span>Copyright © 2021 flexxiblethinking. All Rights Reserved.</span>
+        </footer>
+    </body>
+</html>
